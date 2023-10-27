@@ -8,7 +8,6 @@ from summary_module import job_fit_by_skills
 
 if __name__ == "__main__":
     path = str(sys.argv[1])
-    path = "./examples/example1.png"
     img = img_read(path)
     texts = parse_text(img)
     skills = parse_skills(img, texts)
